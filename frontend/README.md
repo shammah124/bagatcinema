@@ -2,9 +2,9 @@
 
 The frontend for **BagatCinema**, a personalized movie streaming and recommendation platform. Built with React and styled using Tailwind CSS, it connects to the backend API and TMDB (The Movie Database) to deliver an engaging movie discovery experience.
 
-## Live URL
+## Live URL on Vercel
 
-Coming soon…
+-  https://bagatcinema.vercel.app/
 
 ## Technologies Used
 
