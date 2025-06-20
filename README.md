@@ -86,50 +86,50 @@ From root:
 ## Project Structure
 
 bagatcinema/
-├── frontend/ # React frontend
-│ ├── icons
-│ ├── node_modules
-│ ├── public
-│ ├── src
-│ ├── .env
-│ ├── .gitignore
-│ ├── eslint.config.js
-│ ├── index.html
-│ ├── manifest.json
-│ ├── offline.html
-│ ├── package-lock.json
-│ ├── package.json
-│ ├── README.md
-│ ├── .service-worker.js
-│ ├── vite.config.js
-│ └── yarn.lock
-│
-├── backend/ # Express.js API
-│ ├── controllers
-│ ├── middleware
-│ ├── models
-│ ├── node_modules
-│ ├── routes
-│ ├── scripts
-│ ├── .env
-│ ├── .env.example
-│ ├── .gitignore
-│ ├── package-lock.json
-│ ├── README.md
-│ ├── server.js
-│ └── package.json
-│
-├── assets/ # Screenshots and images
-│ ├── HomePage.png
-│ ├── FeaturedMovies.png
-│ ├── MovieTrailer.png
-│ ├── Watchlist.png
-│ ├── RecommendationPage.png
-│ ├── SocialConnect.png
-│ ├── RegisteringPage.png
-│ ├── LoginPage.png
-│ └── UserProfile.png
-└── README.md # Main overview
+-  frontend/ # React frontend
+  -   icons
+  -   node_modules
+  -   public
+  -   src
+  -   .env
+  -   .gitignore
+  -   eslint.config.js
+  -   index.html
+  -   manifest.json
+  -   offline.html
+  -   package-lock.json
+  -   package.json
+  -   README.md
+  -   .service-worker.js
+  -   vite.config.js
+  -   yarn.lock
+-
+-  backend/ # Express.js API
+  -   controllers
+  -   middleware
+  -   models
+  -   node_modules
+  -   routes
+  -   scripts
+  -   .env
+  -   .env.example
+  -   .gitignore
+  -   package-lock.json
+  -   README.md
+  -   server.js
+  -   package.json
+-
+-  assets/ # Screenshots and images
+  -   HomePage.png
+  -   FeaturedMovies.png
+  -   MovieTrailer.png
+  -   Watchlist.png
+  -   RecommendationPage.png
+  -   SocialConnect.png
+  -   RegisteringPage.png
+  -   LoginPage.png
+  -   UserProfile.png
+  -  README.md # Main overview
 
 ## Key Features
 
