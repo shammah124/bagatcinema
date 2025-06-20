@@ -2,6 +2,14 @@
 
 BagatCinema is a fullstack movie recommendation web app with user accounts, social connections, personalized recommendations, and watchlist functionality. Built with **React.js (Vite)** for the frontend and **Express.js + MongoDB Atlas** for the backend. It integrates with the [TMDB API](https://www.themoviedb.org/documentation/api) for real-time movie data.
 
+## Live URL on Vercel
+
+-  https://bagatcinema.vercel.app/
+
+## Backend Deployed Using
+
+-  Render
+
 ## Project Overview
 
 This project showcases full CRUD operations on movie and user data with a cleanly modular structure. It demonstrates real-world fullstack skills, including:
