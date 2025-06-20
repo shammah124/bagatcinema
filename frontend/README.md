@@ -59,16 +59,14 @@ Create a `.env` file in the root of the `frontend/` directory:
 ## Folder Structure
 
 src/
-├── api/ # Axios wrappers
-├── assets/ # Images used for tab icons/PWA
-├── components/ # Reusable UI components
-├── context/ # AuthContext
-├── hooks/ # Custom hooks (e.g., useMovieFilter)
-├── pages/ # Route pages (Home, Dashboard, etc.)
-├── social/ # Components, Files for the social connects
-├── utils/ # Helpers (cache, showToast, etc.)
-
----
+- api/ # Axios wrappers
+- assets/ # Images used for tab icons/PWA
+- cmponents/ # Reusable UI components
+- context/ # AuthContext
+- hooks/ # Custom hooks (e.g., useMovieFilter)
+- pages/ # Route pages (Home, Dashboard, etc.)
+- social/ # Components, Files for the social connects
+- utils/ # Helpers (cache, showToast, etc.)
 
 ## Notes
 
