@@ -129,7 +129,7 @@ bagatcinema/
   - RegisteringPage.png
   - LoginPage.png
   - UserProfile.png
-  - README.md # Main overview
+- README.md # Main overview
 
 ## Key Features
 
