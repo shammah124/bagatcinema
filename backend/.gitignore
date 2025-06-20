@@ -1,0 +1,41 @@
+# === Node Modules ===
+node_modules/
+
+# === Environment Variables ===
+.env
+.env.local
+.env.production
+.env.development
+
+# === Logs ===
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+
+# === Editor Config ===
+.vscode/
+.idea/
+
+# === Coverage Reports ===
+coverage/
+.nyc_output/
+
+# === Runtime Files ===
+tmp/
+dist/
+build/
+
+# === PM2 Logs (if used for process management) ===
+pids/
+*.pid
+*.seed
+
+# === OS Junk ===
+ehthumbs.db
+Desktop.ini
