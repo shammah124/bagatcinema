@@ -6,10 +6,6 @@ BagatCinema is a fullstack movie recommendation web app with user accounts, soci
 
 -  https://bagatcinema.vercel.app/
 
-## Backend Deployed Using
-
--  Render
-
 ## Project Overview
 
 This project showcases full CRUD operations on movie and user data with a cleanly modular structure. It demonstrates real-world fullstack skills, including:
@@ -241,6 +237,19 @@ bagatcinema/
 - TMDB requests are cached to reduce API calls
 - Feedback and watchlist are used for personalized suggestions
 - Social features enhance community interaction
+
+## Deployment (Vercel)
+
+1. Push your frontend code to GitHub
+2. Go to [https://vercel.com](https://vercel.com) and import the repo
+3. Configure:
+   - **Build Command:** `npm run build`
+   - **Output Directory:** `dist`
+   - **Environment Variables:**
+     - `VITE_BACKEND_URL=https://your-backend.onrender.com/api`
+     - `VITE_TMDB_API_KEY=your_tmdb_api_key`
+4. Click **Deploy**
+5. Your app will be live at: `https://your-app.vercel.app`
 
 ## Author
 
