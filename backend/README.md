@@ -78,6 +78,25 @@ A Node.js + Express REST API powering the BagatCinema movie recommendation platf
 - `GET /api/social/followers`
 - `GET /api/social/:userId/followers/count`
 
+## Deployment (Render)
+
+1. Push your backend code to GitHub
+2. Go to [https://render.com](https://render.com)
+3. Create a **new Web Service** from your repo
+4. Set:
+   - **Build Command:** `npm install`
+   - **Start Command:** `npm start`
+   - **Root Directory:** `backend` (if using monorepo)
+5. Add environment variables:
+   - `PORT=5000`
+   - `MONGO_URI=your_mongodb_atlas_uri`
+   - `JWT_SECRET=your_jwt_secret`
+   - `TMDB_API_KEY=your_tmdb_key`
+6. Click **Deploy**
+
+**Note:** Whitelist `0.0.0.0/0` in MongoDB Atlas to allow access.
+
+
 ### Recommendations
 
 - `GET /api/recommendations` – personalized based on:
