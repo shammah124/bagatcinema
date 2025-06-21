@@ -78,6 +78,21 @@ A Node.js + Express REST API powering the BagatCinema movie recommendation platf
 - `GET /api/social/followers`
 - `GET /api/social/:userId/followers/count`
 
+### Recommendations
+
+- `GET /api/recommendations` – personalized based on:
+  - Genres from watchlist & feedback
+  - Preferred language
+  - Favorite actor
+  - Mood
+  - Watch frequency
+
+## Notes
+
+- Movie data is filtered server-side to ensure `poster_path` exists.
+- All TMDB API calls handled via `axios` and cached minimally.
+- Modular controller structure (`controllers/`) and clean routes separation.
+
 ## Deployment (Render)
 
 1. Push your backend code to GitHub
@@ -95,19 +110,3 @@ A Node.js + Express REST API powering the BagatCinema movie recommendation platf
 6. Click **Deploy**
 
 **Note:** Whitelist `0.0.0.0/0` in MongoDB Atlas to allow access.
-
-
-### Recommendations
-
-- `GET /api/recommendations` – personalized based on:
-  - Genres from watchlist & feedback
-  - Preferred language
-  - Favorite actor
-  - Mood
-  - Watch frequency
-
-## Notes
-
-- Movie data is filtered server-side to ensure `poster_path` exists.
-- All TMDB API calls handled via `axios` and cached minimally.
-- Modular controller structure (`controllers/`) and clean routes separation.
